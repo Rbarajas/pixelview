@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f496c23aca7de0d4494121048e58bdc8, type: 3}
+  m_Name: Item Database
+  m_EditorClassIdentifier: 
+  Items:
+  - EditorInternal:
+      Foldout: 0
+    ItemId: 1
+    Name: Blind
+    Prefab: {fileID: 192538, guid: 96fbcf7628920b84c85c5d220c81bbd1, type: 2}
+    Likelihood: 2
+    ItemApplyMode: 2
+    ItemType: 0
+    EffectType: 0
+    EffectDuration: 10
+    Color: {r: 0.019607844, g: 0.9803922, b: 0.72156864, a: 0.2}
+  - EditorInternal:
+      Foldout: 0
+    ItemId: 2
+    Name: Extra Life
+    Prefab: {fileID: 166006, guid: 5f3004a2143c54644afec0ddb1e37563, type: 2}
+    Likelihood: 1
+    ItemApplyMode: 0
+    ItemType: 1
+    EffectType: 0
+    EffectDuration: 10
+    Color: {r: 1, g: 0, b: 0, a: 0.2}
+  - EditorInternal:
+      Foldout: 0
+    ItemId: 3
+    Name: Ftl
+    Prefab: {fileID: 192538, guid: 41644d15b2ca5a94ab446253c63e81ce, type: 2}
+    Likelihood: 2
+    ItemApplyMode: 2
+    ItemType: 0
+    EffectType: 1
+    EffectDuration: 10
+    Color: {r: 0.32156864, g: 0.8588236, b: 0.12941177, a: 0.2}
+  - EditorInternal:
+      Foldout: 0
+    ItemId: 4
+    Name: Input Inverter
+    Prefab: {fileID: 117052, guid: 8da92cb63603d324584b8aacdede0958, type: 2}
+    Likelihood: 2
+    ItemApplyMode: 1
+    ItemType: 0
+    EffectType: 2
+    EffectDuration: 3
+    Color: {r: 0.8705883, g: 1, b: 0, a: 0.2}
+  - EditorInternal:
+      Foldout: 0
+    ItemId: 5
+    Name: Jaggernaut
+    Prefab: {fileID: 192538, guid: 26ceaa2557b95284c89763c9fd245349, type: 2}
+    Likelihood: 1
+    ItemApplyMode: 0
+    ItemType: 0
+    EffectType: 3
+    EffectDuration: 10
+    Color: {r: 0.9803922, g: 0.027450982, b: 0.92549026, a: 0.2}
+  - EditorInternal:
+      Foldout: 0
+    ItemId: 6
+    Name: Panic
+    Prefab: {fileID: 192538, guid: 1c19d81e784ab0a4fb0bdbb008a36002, type: 2}
+    Likelihood: 2
+    ItemApplyMode: 2
+    ItemType: 0
+    EffectType: 4
+    EffectDuration: 10
+    Color: {r: 0.684, g: 0.684, b: 0.684, a: 0.2}
+  - EditorInternal:
+      Foldout: 0
+    ItemId: 7
+    Name: Warp Charge
+    Prefab: {fileID: 192538, guid: 286a5b9c8e14f6e4898ed2d7bca141b4, type: 2}
+    Likelihood: 3
+    ItemApplyMode: 2
+    ItemType: 2
+    EffectType: 0
+    EffectDuration: 10
+    Color: {r: 0.12941177, g: 0.7019608, b: 0.86274517, a: 0.2}

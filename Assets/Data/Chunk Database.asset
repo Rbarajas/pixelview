@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88e816eb691242842a10a7b7af5f4ecb, type: 3}
+  m_Name: Chunk Database
+  m_EditorClassIdentifier: 
+  Themes:
+  - Name: Rusty Tunnel
+    Likelihood: 1
+    Chunks:
+    - Prefab: {fileID: 176258, guid: a31af37518f766946ab8d2e3d6e0017a, type: 2}
+      Likelihood: 1
+      ItemChance: 1
+    - Prefab: {fileID: 100646, guid: 2d12984ee0c687e4a848d92cdce83513, type: 2}
+      Likelihood: 1
+      ItemChance: 1
+    - Prefab: {fileID: 128218, guid: f44b89b68cafa1143b8be9f53b963333, type: 2}
+      Likelihood: 1
+      ItemChance: 1
+    - Prefab: {fileID: 128218, guid: cdd6a74575a9633489efa57c88659192, type: 2}
+      Likelihood: 1
+      ItemChance: 1
+    - Prefab: {fileID: 128218, guid: c1c788279d44f214d9964755f1a09473, type: 2}
+      Likelihood: 1
+      ItemChance: 1
+    PanicChunks:
+    - Prefab: {fileID: 138144, guid: 57fb2263fddafc2418c6cc7951043dd8, type: 2}
+      Likelihood: 1
+      ItemChance: 1
+    - Prefab: {fileID: 123608, guid: 6b38d8777a86dbd448cede6787d8cc40, type: 2}
+      Likelihood: 1
+      ItemChance: 1
+  - Name: Medieval
+    Likelihood: 1
+    Chunks:
+    - Prefab: {fileID: 176258, guid: e3ca1da0b5f621c4f939d88f7201af78, type: 2}
+      Likelihood: 1
+      ItemChance: 1
+    PanicChunks:
+    - Prefab: {fileID: 138144, guid: 656e2e2314f48f44c836f0d9bb65544d, type: 2}
+      Likelihood: 1
+      ItemChance: 1

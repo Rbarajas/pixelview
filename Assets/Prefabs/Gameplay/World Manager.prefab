@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &118788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 443892}
+  - 114: {fileID: 11492372}
+  - 114: {fileID: 11446470}
+  - 114: {fileID: 11479780}
+  - 114: {fileID: 11422768}
+  - 114: {fileID: 11470064}
+  - 114: {fileID: 11445096}
+  m_Layer: 0
+  m_Name: World Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &443892
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11422768
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d216055f9b9eb044a4102e756201820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemDatabase: {fileID: 11400000, guid: 542a37e38abdda74cb50a56b0b4d3003, type: 2}
+  Horizon: 100
+  WarmUpDistance: 100
+--- !u!114 &11445096
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b86f777f305b11942b8580eb786b225d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Curvature:
+    Distance: 10
+    MaxCurvature: 0.005
+    HorizontalChangeFrequency: 0.001
+    VerticalChangeFrequency: 0.002
+  Fog:
+    FogStart: 80
+    FogEnd: 100
+  BlindModeFog:
+    FogStart: 0
+    FogEnd: 30
+--- !u!114 &11446470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48ea3d811280ea2429ff7e052217efd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DistanceTravelled: 0
+  Speed: 35
+  MaxSpeed: 45
+  FtlSpeedBoost: 20
+  Acceleration: 0.083333336
+--- !u!114 &11470064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d226dfa9b2f1264f91f3577246e1ffc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimeInterval: 1
+  RecycleDistance: 100
+--- !u!114 &11479780
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4cae28cfa9fe594d855cc055bcdcac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChunkDatabase: {fileID: 11400000, guid: ce99cae9ede73154e81628c5efa0107b, type: 2}
+  UI:
+    WarpCharge: {fileID: 0}
+  CurrentTheme:
+    Name: 
+    Likelihood: 1
+    Chunks: []
+    PanicChunks: []
+  ChargesToSwitchTheme: 10
+--- !u!114 &11492372
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 29
+    i1: 138
+    i2: 209
+    i3: 125
+    i4: 159
+    i5: 202
+    i6: 4
+    i7: 196
+    i8: 105
+    i9: 197
+    i10: 160
+    i11: 98
+    i12: 207
+    i13: 208
+    i14: 101
+    i15: 242
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: ChunkDatabase
+      value: 
+      objectReference: {fileID: 11400000, guid: ce99cae9ede73154e81628c5efa0107b,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: Fog.FogStart
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BlindModeFog.FogEnd
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPlayerAuthority
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SyncedWithServer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ChargesToSwitchTheme
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 118788}
+  m_IsPrefabParent: 1
